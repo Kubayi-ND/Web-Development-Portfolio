@@ -1,0 +1,215 @@
+/* General styling*/
+body
+{
+    padding: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+a.nav-link
+{
+    color: rgba(20, 20, 20, 0.753);
+    font-size: large;
+}
+
+li a.current
+{
+    font-weight: bold;
+    color: rgb(135, 33, 236);
+
+}
+
+/* homepage styling*/
+body.home
+{
+    background-image: url("../background_Images/Background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+}
+
+section#homepage
+{
+  
+    gap: 10px;
+    margin-top: 100px;
+    
+}
+
+section#homepage
+{
+    display: flex;
+    height: 70vh;
+}
+div.visual, div.description
+{
+    width: 50%;
+}
+
+
+@media screen and (max-width: 630px) {
+    div.description
+    {
+        width: 100%;
+    }
+    section#homepage
+    {  
+        flex-direction: column;
+        margin-top: 100px;
+        
+    }
+}
+
+h5
+{
+    margin-bottom: 0px;
+}
+
+h1
+{
+    margin-top: 0px;
+    font-weight: bolder;
+}
+
+#aspiring
+{
+    color: rgb(71, 2, 139);
+}
+
+button
+{
+   background-color: rgb(233, 231, 231); 
+   border: none;
+   border-radius: 5px;
+   font-weight: 550;
+   color: rgba(20, 20, 20, 0.753);
+}
+
+button:hover
+{
+    background-color: rgba(20, 20, 20, 0.753);
+    color: white;
+}
+
+
+
+/*Projects page styling*/
+
+
+section.projectPage h2, h5
+{
+    font-weight: bolder;
+}
+
+section.projectPage  h5
+{
+    text-align: center;
+    color: rgb(91, 91, 161);
+}
+div.carousel-inner{
+   height: 400px;
+}
+
+div.carousel-item img.mobile
+{
+    height: 400px;
+    max-width: 350px;
+    margin: auto;
+}
+
+div.carousel-item img
+{
+    height: 400px;
+    max-width: 600px;
+    margin: auto;
+}
+
+div#coffeeShop
+{
+    height: 600px;
+}
+
+div#AnimeVerse, div#qrcode
+{
+    height: 440px;
+}
+
+div#coffeeShop img
+{
+    height: 560px;
+}
+
+button.btnProjects
+{
+    margin:  auto;
+    display: block;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+/*About page styling*/
+@media screen and (max-width:550px) {
+#resume
+{
+    flex-direction: column;
+    gap: 10px;
+  
+}
+div#information
+{
+    width: 100%;
+}
+div#skills
+{
+    width: 100%;
+}
+
+}
+#resume
+{
+    text-align: justify;
+    display: flex;
+    margin: 0 auto;
+    gap: 30px;
+}
+#resume h4
+{
+    margin-top: 20px;
+}
+div.contactDetails  svg:hover
+{
+    fill: rgb(91, 91, 161);
+}
+div p.contacts
+{
+    display:inline-block;
+    margin-left: 10px;
+}
+#information, #skills
+{
+    width: 50%;
+    background-color: rgba(165, 159, 159, 0.178);
+    border-radius: 5px;
+    padding: 0px 5px;
+}
+
+ 
+button#btndonwloadResume
+{
+    display: flex;
+    margin: 0 auto;
+    background-color: rgba(20, 20, 20, 0.753);
+    color: white;
+}
+
+button#btndonwloadResume:hover
+{
+    background-color: rgb(91, 91, 161);;
+}
+
+svg
+{
+    fill:initial
+}
