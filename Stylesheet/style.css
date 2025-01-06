@@ -189,7 +189,6 @@ div p.contacts
 }
 #information, #skills
 {
-    width: 50%;
     background-color: rgba(165, 159, 159, 0.178);
     border-radius: 5px;
     padding: 0px 5px;
