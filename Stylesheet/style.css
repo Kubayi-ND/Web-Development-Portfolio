@@ -5,6 +5,10 @@ body
     font-family: Arial, Helvetica, sans-serif;
     color: black;
 }
+img.logo
+{
+    float: left;
+}
 a.nav-link
 {
     color: rgba(20, 20, 20, 0.753);
