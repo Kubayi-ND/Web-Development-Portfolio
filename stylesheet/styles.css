@@ -15,10 +15,14 @@ header
     padding-top: 0;
 }
 
-/**/
+/*scroll position*/
 #about, #techSkills, #projectShowcase
 {
     scroll-margin-top: 80px;
+}
+
+.navbar-toggler{
+    border-color: white;
 }
 a.nav-link
 {
